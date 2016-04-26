@@ -1,0 +1,12 @@
+1. Com base no exemplo do código fonte, implemente um formulário que simule uma
+  calculadora.
+  Operacoes: Adicao, Subtracao, Multiplicacao, Divisao;
+  Todas as operações devem contemplar dois números e retornar um valor e/ou uma
+  mensagem informando o problema ocorrido.
+
+2. Implemente uma classe de retorno, generica, que deve ter a seguinte estrutura:
+NomeDaClasse{
+  mensagem: String; // Mensagem de retorno após a execução do serviço
+  status: Boolean; // Status referente à execução do servico, se o mesmo ocorreu conforme solicitado ou teve algum problema;
+  valorRetorno: variant; //Retorno do servico, deve vir preenchido somente se o campo "status" tiver valor TRUE;
+}
